@@ -17,7 +17,7 @@ class NetWorthCalculation(unittest.TestCase):
         #Use below if ChromeDriver will not be on PATH
         #self.driver = webdriver.Chrome(options=options, executable_path="YOUR PATH HERE")
         self.driver.implicitly_wait(10)
-        self.driver.get("https://www.harnesswealth.com/net-worth-calculator/")
+        self.driver.get("https://www.harnesswealth.com/net-worth-calculator-legacy/")
 
     def test_happy_path(self):
         driver = self.driver
